@@ -1,0 +1,27 @@
+{
+  "name": "react-class-reconcilliation-bug",
+  "version": "1.0.0",
+  "description": "Demo of potential bug: https://github.com/facebook/react/issues/13260",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "build": "babel src --out-dir lib --copy-files && webpack"
+  },
+  "author": "craigkjones@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
