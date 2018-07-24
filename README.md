@@ -36,4 +36,14 @@ What I would expect to see:
 </div>
 ```
 
+However, if you then run:
+
+```
+npm install react@15 react-dom@15 --save
+npm run build
+npm start
+```
+
+Bingo. It works.
+
 See the issue for notes and discussion.
